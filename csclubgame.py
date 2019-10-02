@@ -36,5 +36,15 @@ if x == ("The Ocean"):{
 
 else:{
 
-  print ("You have two options. You can jump into the water, or try to ")
+  z = input("You have two options. You can jump into the water, or try to jump acrosss the drawbridge.")
+}
+  
+if z == ("Jump into water"):{
+  
+  print("You dead lmao")
+}
+
+if z == ("Jump across the drawbridge"):{
+ 
+  print("The drawbridge breaks, and you fall into the moat of alligators.")
 }
