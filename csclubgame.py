@@ -1,3 +1,4 @@
+ 
 import time
 print("Welcome to *Game Title*!")
 
@@ -19,7 +20,6 @@ print('''
   \_o_o_o_/
  ~~~~ | ~~~~~
 ____________
-
 You are on a ship in the middle of the pacific. What do you do?''')
 }
 time.sleep(1)
@@ -29,18 +29,21 @@ if y == ("North", "South", "East" or "West"):{
   print("You are now travelling", y)
 }
 
+time.sleep(1)
+
 if x == ("The Ocean"):{
 
   print("You have encountered a shark.")
 }
 
-else:{
+if x == ("The Castle"):{
 
   print("You have two options. You can jump into the water, or try to jump acrosss the drawbridge.")
-}
-
-z = input("Jump into water or jump across bridge?")
   
+}
+  
+z = input("Jump into water or jump across bridge?")
+
 if z == ("Jump into water"):{
   
   print("You dead lmao")
