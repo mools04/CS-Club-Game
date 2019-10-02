@@ -31,20 +31,22 @@ if y == ("North", "South", "East" or "West"):{
 
 if x == ("The Ocean"):{
 
-  print ("You have encountered a shark.")
+  print("You have encountered a shark.")
 }
 
 else:{
 
-  z = input("You have two options. You can jump into the water, or try to jump acrosss the drawbridge.")
+  print("You have two options. You can jump into the water, or try to jump acrosss the drawbridge.")
 }
+
+z = input("Jump into water or jump across bridge?")
   
 if z == ("Jump into water"):{
   
   print("You dead lmao")
 }
 
-if z == ("Jump across the drawbridge"):{
+if z == ("Jump across bridge"):{
  
   print("The drawbridge breaks, and you fall into the moat of alligators.")
 }
