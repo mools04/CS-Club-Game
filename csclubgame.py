@@ -12,12 +12,19 @@ if x == "The Castle":{
 }
 
 if x == "The Ocean":{
-    
-  print("You are on a ship in the middle of the pacific. What do you do?")
-}
+print('''
+    //|\\
+   //_|_\\
+  ____|____
+  \_o_o_o_/
+ ~~~~ | ~~~~~
+____________
 
+You are on a ship in the middle of the pacific. What do you do?''')
+}
+time.sleep(1)
 y = input("You may go North, South, East, or West.")
-if y == ("North" or "South" or "East" or "West"):{
+if y == ("North", "South", "East" or "West"):{
     
   print("You are now travelling", y)
 }
@@ -25,4 +32,9 @@ if y == ("North" or "South" or "East" or "West"):{
 if x == ("The Ocean"):{
 
   print ("You have encountered a shark.")
+}
+
+else:{
+
+  print ("You have two options. You can jump into the water, or try to ")
 }
