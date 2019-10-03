@@ -42,7 +42,7 @@ else:{
 }
 time.sleep(1)
 y = input("You may go North, South, East, or West.")
-if y in ["North", "South", "East" "West"]:{
+if y in ["North", "South", "East", "West"]:{
     
   print("You are now travelling", y)
 }
@@ -86,3 +86,4 @@ if x == ("The Castle"):
     if z == ("Jump across bridge"):
  
         print("The drawbridge breaks, and you fall into the moat of alligators.")
+    
